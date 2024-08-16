@@ -35,7 +35,7 @@ $$
 
 The reactor product stream is then cooled using the condenser and fed to a flash separator. A recycle is implemented via the compressor with the necessary purge to prevent accumulation of $B$ and $F$. Finally, the liquid outlet of the separator is fed into a stripper for further separation. See the figure below for a schematic reresentation of the flowsheet.
 
-```{figure} media/08_monitoring/TEP_flowsheet.png
+```{figure} TEP_flowsheet.png
 :alt: cstr
 :width: 80%
 :align: center
