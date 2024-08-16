@@ -1,4 +1,4 @@
-# Anomalous Process Detection
+# Anomalous Process Detection using TEP Data
 Process monitoring using Autoencoder Neural Network
 
 ## Tennessee Eastman process 🏭
