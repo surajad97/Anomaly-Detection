@@ -78,3 +78,84 @@ File | Description                                            | Type
 21 | Unknown
 
 As you can suspect from the code below, the data has already being splitted into training and test.
+
+Each dataset is reported in the form of a matrix where the 52 columns correspond to the 41 process measurements + 11 manipulated variables according to the following tables
+
+### Process variables
+
+**Process Measurements (3 minutes)**
+
+Column | Description                         | Unit
+------ | ----------------------------------- | ----
+1      | A Feed  (stream 1)                  | kscmh
+2      | D Feed  (stream 2)                  | kg/hr
+3      | E Feed  (stream 3)                  | kg/hr
+4      | A and C Feed  (stream 4)            | kscmh
+5      | Recycle Flow  (stream 8)            | kscmh
+6      | Reactor Feed Rate  (stream 6)       | kscmh
+7      | Reactor Pressure                    | kPa gauge
+8      | Reactor Level                       | %
+9      | Reactor Temperature                 | Deg C
+10     | Purge Rate (stream 9)               | kscmh
+11     | Product Sep Temp                    | Deg C
+12     | Product Sep Level                   | %
+13     | Prod Sep Pressure                   | kPa gauge
+14     | Prod Sep Underflow (stream 10)      | m3/hr
+15     | Stripper Level                      | %
+16     | Stripper Pressure                   | kPa gauge
+17     | Stripper Underflow (stream 11)      | m3/hr
+18     | Stripper Temperature                | Deg C
+19     | Stripper Steam Flow                 | kg/hr
+20     | Compressor Work                     | kW
+21     | Reactor Cooling Water Outlet Temp   | Deg C
+22     | Separator Cooling Water Outlet Temp | Deg C
+
+**Reactor feed analysis (6 minutes)**
+
+Column | Description | Unit
+------ | ----------- | ----
+23     | Component A | % mol
+24     | Component B | % mol
+25     | Component C | % mol
+26     | Component D | % mol
+27     | Component E | % mol
+28     | Component F | % mol
+
+**Purge gas analysis (6 minutes)**
+
+Column | Description | Unit
+------ | ----------- | ----
+29     | Component A | % mol
+30     | Component B | % mol
+31     | Component C | % mol
+32     | Component D | % mol
+33     | Component E | % mol
+34     | Component F | % mol
+35     | Component G | % mol
+36     | Component H | % mol
+
+**Product analaysis (15 minutes)**
+
+Column | Description | Unit
+------ | ----------- | ----
+37     | Component D | % mol
+38     | Component E | % mol
+39     | Component F | % mol
+40     | Component G | % mol
+41     | Component H | % mol
+
+**Manipulated variables**
+
+Column | Description 
+------ | ----------- 
+42     | D Feed Flow (stream 2)            
+43     | E Feed Flow (stream 3)            
+44     | A Feed Flow (stream 1)        
+45     | A and C Feed Flow (stream 4)
+46     | Compressor Recycle Valve
+47     | Purge Valve (stream 9)
+48     | Separator Pot Liquid Flow (stream 10)
+49     | Stripper Liquid Product Flow (stream 11)
+50     | Stripper Steam Valve
+51     | Reactor Cooling Water Flow
+52     | Condenser Cooling Water Flow
