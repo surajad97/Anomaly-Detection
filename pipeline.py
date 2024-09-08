@@ -32,7 +32,6 @@ def plot_error_dist(data, model, threshold):
 
 # Comparing actual and reconstructed data for normal and anomalous samples.
  
-
 fault = '01'
 test_data = np.loadtxt('./data/d' + fault + '_te' + '.csv')
 scaler = joblib.load('AER_scaler.pkl')
